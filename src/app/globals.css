@@ -1,0 +1,46 @@
+@import 'tailwindcss';
+
+@theme {
+  --breakpoint-xl: 1400px;
+  --breakpoint-lg: 1281px;
+  --breakpoint-md: 861px;
+  --breakpoint-sm: 421px;
+
+  --color-green: #254952;
+  --color-not-black: #1a1a1a;
+  --color-cloud-white: #ffffff;
+  --color-mist: #f7f6f5;
+  --color-sand: #f4f0ec;
+  --color-gray: #868686;
+  --color-teal-light: #007c78;
+  --color-teal-bright: #49b5b2;
+  --color-green-light: #7ed7d5;
+  --color-teal-light-bg: #c6edec;
+
+  --color-homecare-tangerine: #f57a44;
+  --color-homecare-medium: #b26b3c;
+  --color-homecare-rusty: #9a450e;
+  --color-homecare-blush: #ffb392;
+  --color-homecare-peach: #f7f3ed;
+
+  --color-rose-medium: #e97c76;
+  --color-rose: #a56b5b;
+  --color-dark-rose: #7d4e4a;
+  --color-dusty-rose: #f2e6e5;
+
+  --color-transportation-tangerine: #fda51e;
+  --color-pumpkin: #cf7e03;
+  --color-transportation-rust: #b16b00;
+  --color-transportation-peach: #fff4dd;
+
+  --color-blue-medium: #6182e0;
+  --color-blue-bright: #8eaafa;
+  --color-blue-dark: #1740a1;
+  --color-blue-pale: #d9e0f5;
+}
+
+@layer base {
+  h1 {
+    @apply text-not-black leading-24 font-[450] tracking-[-1.68px] xl:text-[84px];
+  }
+}
